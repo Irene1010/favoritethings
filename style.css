@@ -1,0 +1,38 @@
+header{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 3px solid mediumpurple;
+}
+
+img{
+  height: 512px;
+}
+
+.movies{
+  text-align: center;
+}
+
+.move{
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+  width: 357px;
+  text-align: center;
+}
+
+.middle{
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  bottom: 50%;
+}
+
+.move:hover img{
+  opacity: 0.2;
+}
+
+.move:hover .middle{
+  opacity: 1.0;
+}
